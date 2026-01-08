@@ -1,0 +1,16 @@
+# Example program to calculate total and average marks
+
+# Input
+name = input("Enter student name: ")
+mark1 = float(input("Enter mark 1: "))
+mark2 = float(input("Enter mark 2: "))
+mark3 = float(input("Enter mark 3: "))
+
+# Processing
+total = mark1 + mark2 + mark3
+average = total / 3
+
+# Output
+print("\nStudent Name:", name)
+print("Total Marks:", total)
+print("Average Marks:", round(average, 2))
